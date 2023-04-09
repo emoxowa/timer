@@ -1,0 +1,94 @@
+* {
+  font-family: "Arial", sans-serif;
+  color: black;
+  letter-spacing: 0.06em;
+  transition: all 0.4s linear;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-width: 320px;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+.page {
+  background-color: #ffd7cf;
+  height: 100vh;
+  width: 100%;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("./assets/images/phone-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 400px;
+  height: 700px;
+}
+.phone__timer {
+  text-align: center;
+}
+.phone__input {
+  background-color: transparent;
+  border: 3px solid palevioletred;
+  padding: 15px;
+  border-radius: 5px;
+}
+.phone__input::-moz-placeholder {
+  color: black;
+}
+.phone__input::placeholder {
+  color: black;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 3rem;
+  letter-spacing: 0.001em;
+  color: palevioletred;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.button:hover {
+  transform: scale(1.1);
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  background-image: url("./assets/images/face.png");
+  background-position: contain;
+  background-position: center center;
+}
+
+.button-reset {
+  padding: 10px;
+  border: none;
+  background-color: darkcyan;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}/*# sourceMappingURL=index.css.map */
