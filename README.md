@@ -2,6 +2,10 @@
 
 This JavaScript Timer program allows users to set a countdown timer and displays the remaining time in an HH:mm:ss format. The timer can be started, reset, and will display a message when the countdown reaches zero.
 
+## Live Demo
+
+Check out the live demo [here](https://emoxowa.github.io/timer/).
+
 ## Features
 
 1. The user can input a time in seconds.
